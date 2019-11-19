@@ -14,11 +14,13 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="calculator">
-                        
+
+                        <!-- The display -->
                         <input type="text" class="calc-screen" id="display" value= "0" readonly>
                         
                         <div class="calc-keys">
-                          
+
+                          <!-- Just value alone is displayed in the html, not data-value -->
                           <input type="button"  class="operator" data-op="+" value="+">
                           <input type="button"  class="operator" data-op="-" value="-">
                           <input type="button"  class="operator" data-op="*" value="*">
@@ -41,7 +43,7 @@
                       
                           <input type="button" class="num" data-value="0" value="0">
                           <input type="button" class="num" data-value="." value=".">
-                          <input type="button"  class="all-clear" data-value="AC" value="AC" onclick="clr()">
+                          <input type="button"  class="all-clear" data-value="AC" value="AC" >
                       
                           <input type="button"  class="equal-sign" data-solve value="=" onclick="solve()">
                           
